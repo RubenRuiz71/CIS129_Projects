@@ -29,3 +29,9 @@ print(f"Subtotal: ${subtotal:.2f}")
 print(f"Tax: ${tax:.2f}")
 print(f"Total: ${total:.2f}")
 
+
+# Thank the user
+print("\nThank you for visiting our Coffee Shop! We hope to see you again soon!")
+
+
+
