@@ -1,0 +1,17 @@
+def medical_diagnosis():
+    # Prompt the user for their problem
+    input("What is your problem? ")
+    
+    # Prompt the user if they have had this problem before
+    response = input("Have you had this problem before (yes or no)? ").strip().lower()
+    
+    # Provide a response based on the user's answer
+    if response == 'yes':
+        print("Well, you have it again.")
+    elif response == 'no':
+        print("Well, you have it now.")
+    else:
+        print("Sorry, I didn't understand your answer.")
+
+# Run the medical diagnosis function
+medical_diagnosis()
